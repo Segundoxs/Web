@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang = "Pt-BR">
+
+<head>
+    <meta charset = "UTF-8">
+
+    <meta
+    nome="Web"
+    content="Meu site Web">
+  <link rel="stylesheet" href="style.css">
+
+<script src="script.js" defer></script> 
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="efeitos.css">
+<script src="efeitos.js" defer></script>
+<link rel="stylesheet" href="cards.css">
+<script src="cards.js" defer></script>
+<link rel="stylesheet" href="logo-fx.css">
+<script src="logo-fx.js" defer></script>
+
+<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+
+    <title> GameOver </title>
+
+</head>
+ 
+<body>
+    <header>
+    
+    
+    <img
+    src="logo/Gamer.png"
+    alt="Imagem do GameOver"
+    class="logo"
+    width="200" 
+    height="200">
+
+    <p1> Bem-vindo ao GameOver! </p1>
+
+    <nav>
+        
+       <a href="#home">Início</a>
+       <a href="#sobre">Sobre</a>
+       <a href="#destaques">Destaques</a>
+       <a href="#notícias">Notícias</a>
+       <a href="#contato">Contato</a>
+        
+    </nav>
+
+    </header>
+<main>
+    <section id="home">
+        <h2>Início</h2>
+        <p>Bem-vindo ao GameOver!
+    <br>O seu destino para ficar por dentro das principais notícias, lançamentos, novidades e análises do mundo dos games.</p>
+    <section id="home">
+    <div class="card-grid">
+        <a href="#home" class="game-card">
+            <img src="logo/Gamer.png" alt="Início">
+            <span class="game-card-tag">GameOver</span>
+            <div class="game-card-info">
+                <h3>Início</h3>
+                <p>Fique por dentro de tudo sobre o mundo dos games.</p>
+            </div>
+        </a>
+        <a href="#sobre" class="game-card">
+            <img src="Imagens/perfil.jpeg" alt="Sobre">
+            <span class="game-card-tag">Quem somos</span>
+            <div class="game-card-info">
+                <h3>Sobre</h3>
+                <p>Conheça a missão do GameOver.</p>
+            </div>
+        </a>
+        <a href="#destaques" class="game-card">
+            <img src="Imagens/gta6.jpg" alt="Destaques">
+            <span class="game-card-tag">Em alta</span>
+            <div class="game-card-info">
+                <h3>Destaques</h3>
+                <p>Os lançamentos que estão bombando.</p>
+            </div>
+        </a>
+        <a href="#notícias" class="game-card">
+            <img src="imagens/re9.jpg" alt="Notícias">
+            <span class="game-card-tag">Atualizado</span>
+            <div class="game-card-info">
+                <h3>Notícias</h3>
+                <p>As últimas novidades do universo gamer.</p>
+            </div>
+        </a>
+        <a href="#contato" class="game-card">
+            <img src="Imagens/contato.jpg" alt="Contato">
+            <span class="game-card-tag">Fale conosco</span>
+            <div class="game-card-info">
+                <h3>Contato</h3>
+                <p>Mande sua mensagem pra gente.</p>
+            </div>
+        </a>
+    </div>
+</section>
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre</h2>
+        <p>O GameOver é um site dedicado a fornecer informações atualizadas sobre os últimos lançamentos de jogos, análises detalhadas e muito mais.
+        <br>O GameOver é um site dedicado aos apaixonados por videogames.
+        Nossa missão é reunir notícias, lançamentos, análises e curiosidades para manter a comunidade gamer sempre atualizada.
+         Aqui você encontra informações sobre grandes franquias, jogos independentes, novidades de PC e consoles, eventos e tudo o que está movimentando o universo dos games.</p>
+    </section>
+    <section id="destaques">
+        <h2> Destaques </h2>
+        <p>GTA VI abre pré-venda da Edição Ultimate
+        <br>As reservas do próximo título da Rockstar já estão liberadas, com a versão Ultimate custando R$ 450. O lançamento está previsto para novembro.</p>
+        <p>MARVEL Tōkon: Fighting Souls entra em cena
+        <br>O novo jogo de luta da Marvel chega com mecânicas de tag-team e combos visuais estilizados, reunindo heróis e vilões do universo em confrontos frenéticos para PS5 e PC.</p>
+    </section>
+    <section id="notícias">
+        <h2> Notícias </h2>
+        <p>MARVEL Tōkon: Fighting Souls chega em 6 de agosto
+        <br>Novo jogo de luta da Marvel aposta em mecânicas de dupla (tag-team) e combos vistosos, reunindo heróis e vilões do universo para PS5 e PC.</p> 
+        <p>Resident Evil Requiem ganha traje bônus na edição Deluxe
+        <br>Quem comprar a versão Deluxe do jogo de terror da Capcom recebe um figurino especial para a protagonista Grace inspirado em Lady Dimitrescu, personagem de Resident Evil Village.</p>
+     </section>
+
+    <section id="contato">
+        <h2> Entre em Contato</h2>
+        <form action = "#" method = "post">
+            <label for = "nome">Nome:</label>
+            <input type = "text" id = "nome" name = "nome" required>
+
+            <label for = "email">Email:</label>
+            <input type = "email" id = "email" name = "email" required>
+
+            <label for = "mensagem">Mensagem:</label>
+            <textarea id = "mensagem" name = "mensagem" required></textarea>
+
+            <button type = "submit">Enviar</button>
+        </form>
+        
+    </section>
+
+</main>
+<footer>
+    <p> 
+    <br>
+    GameOver. Todos os direitos reservados. © 2026
+    Notícias e informações atualizadas sobre o mundo dos games 
+    &copy;</p>
+</footer>
+
+</body>
+ 
+</html>
